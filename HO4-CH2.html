@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Total Loan Cost</title>
+	<link rel="stylesheet" type="text/css" href="loan2.css" />
+	<script type="text/javascript" src="loan2.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<h1>CIS2013 Total Loan Cost Calculator</h1>
+		<p>
+			Enter the values requested below and click "Calculate".
+		</p>
+
+		<label for="monthly_payment">Monthly Payment:  $</label>
+		<input type="text" id="monthly_payment" />
+		<br />
+
+		<label for="loan_length">Total # Monthly Payments:</label>
+		<input type="text" id="loan_length" />
+		<br />
+        
+		<label for="interest_rate">Interest Rate (in decimal format):</label>
+		<input type:"text" id="interest_rate" />
+		<br />
+		
+        <label>&nbsp;</label>
+		<input type="button" id="calc" value="Calculate" />
+		<br />
+
+		<label for="total_cost_without_interest">Total Loan Cost (Without Interest):  $</label>
+		<input type="text" id="total_cost_without_interest" disabled="disabled" />
+		<br />
+		
+		<label for="total_cost_with_interest">Total Loan Cost (With Interest):  $</label>
+		<input type="text" id="total_cost_with_interest" disabled="disabled" />
+		<br><br>
+		<img class = "displayed" src="https://thenewdaily.com.au/wp-content/uploads/2020/03/oprah-you-get-a-car-gif-7.gif" alt="sketchy"  height="450" width="600">
+	</div>
+</body>
+</html>
