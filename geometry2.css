@@ -1,0 +1,53 @@
+body {
+    font-family: Noto Sans, Arial, sans-serif;
+    background: #89CFF0;
+}
+
+#content {
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+	border-radius: 30px;
+}
+
+h1 {
+	text-align: center;
+	color: purple;
+}
+
+p {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+img {
+    border-radius: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: 2px solid rgb(34, 4, 252);
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
